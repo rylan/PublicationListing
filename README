@@ -1,4 +1,8 @@
-This EnyoJS project is to allow academics to easily create and maintain publication pages.  
+The goal of the publication listing project to make it easy for academics 
+to create and maintain publication pages; connect authors and academic stats 
+about their published work by harnessing Microsoft Academic Search
+http://academic.research.microsoft.com. This work will utilize EnyoJS
+framework. 
 
 
 
