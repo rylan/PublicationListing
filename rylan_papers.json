@@ -1,0 +1,257 @@
+{
+	"papers":
+	[
+		{
+			"authors" : 
+			[
+				{ 
+					"firstName":"Rylan", 
+					"initials":"",
+					"lastName":"Cottrell",
+					"email":"cottrell@cpsc.ucalgary.ca"
+		 		},
+		 		{ 
+					"firstName":"Brina", 
+					"initials":"",
+					"lastName":"Goyette",
+					"email":""
+		 		},
+		 		{ 
+					"firstName":"Reid", 
+					"initials":"",
+					"lastName":"Holmes",
+					"email":""
+		 		},
+		 		{ 
+					"firstName":"Robert", 
+					"initials":"J.",
+					"lastName":"Walker",
+					"email":""
+		 		},
+		 		{ 
+					"firstName":"Jörg", 
+					"initials":"",
+					"lastName":"Denzinger",
+					"email":""
+		 		}
+			],
+			"title" : "Compare and Contrast: Visual Exploration of Source Code Examples",
+			"publication":"In Proceedings of the Fifth IEEE Workshop on Visualizing Software for Understanding and Analysis (VISSOFT’09)",
+			"year":"2009",
+			"pages":"29-32",
+			"doi":"http://dx.doi.org/10.1109/VISSOF.2009.5336429",
+			"pdf":"http://ieeexplore.ieee.org/iel5/5314286/5336412/05336429.pdf?tp=&arnumber=5336429&isnumber=5336412",
+			"abstract": "Understanding the commonalities and differences of a set ofsource code examples can help developers to understand or to evolve application programming interfaces (APls). While several approaches exist to assist developers in locating source code examples, they often present their results only in a basic list view, with at most an indication ofthe relationship to the search query; unfortunately, they offer no information on how the results relate to one another. A developer is then faced with the highly manual task of exploring these examples to discern their similarities and differences. This paper describes our prototype tool (called Guido) for exploring source code examples, using their structural correspondences. The Guido tool uses multiple coordinated views to visualize the relationships between examples, in order to assist the developer in identifying common and unique traits between them."
+		},
+		{
+			"authors" : 
+			[
+				{ 
+					"firstName": "Reid", 
+					"initials":"",
+					"lastName":"Holmes",
+					"email":""
+		 		},
+		 		{ 
+					"firstName": "Rylan", 
+					"initials":"",
+					"lastName":"Cottrell",
+					"email":"cottrell@cpsc.ucalgary.ca"
+		 		},
+		 		{ 
+					"firstName": "Robert", 
+					"initials":"J.",
+					"lastName":"Walker",
+					"email":""
+		 		},
+		 		{ 
+					"firstName": "Jörg", 
+					"initials":"",
+					"lastName":"Denzinger",
+					"email":""
+		 		}
+			],
+			"title" : "The End-to-End Use of Source Code Example: An Exploratory Study",
+			"publication":"In Proceedings of the Twenty Fifth IEEE International Conference on Software Maintenance  (ICSM ’09)",
+			"year":"2009",
+			"pages":"555-558",
+			"doi":"http://dx.doi.org/10.1109/ICSM.2009.5306387",
+			"pdf":"http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5306387",
+			"abstract": "Source code examples are valuable to developers needing to use an unfamiliar application programming interface (API). Numerous approaches exist to help developers locate source code examples; while some of these help the developer to select the most promising examples, none help the developer to reuse the example itself. Without explicit tool support for the complete end-to-end task, the developer can waste time and energy on examples that ultimately fail to be appropriate; as a result, the overhead required to reuse an example can restrict a developer’s willingness to investigate multiple examples to ﬁnd the “best” one for their situation. This paper outlines four case studies involving the end-to-end use of source code examples: we investigate the overhead and pitfalls involved in combining a few state-of-the-art techniques to support the end-to-end use of source code examples."
+		},
+		{
+			"authors" : 
+			[
+				{ 
+					"firstName": "Reid", 
+					"initials":"",
+					"lastName":"Holmes",
+					"email":""
+		 		},
+		 		{ 
+					"firstName": "Rylan", 
+					"initials":"",
+					"lastName":"Cottrell",
+					"email":"cottrell@cpsc.ucalgary.ca"
+		 		},
+		 		{ 
+					"firstName": "Robert", 
+					"initials":"J.",
+					"lastName":"Walker",
+					"email":""
+		 		},
+		 		{ 
+					"firstName": "Jörg", 
+					"initials":"",
+					"lastName":"Denzinger",
+					"email":""
+		 		}
+			],
+			"title" : "The End-to-End Use of Source Code Example: An Exploratory Study - Appendix",
+			"publication":"University of Calgary Technical Report 2009-934-12",
+			"year":"2009",
+			"pages":"8",
+			"doi":"http://hdl.handle.net/1880/47297",
+			"pdf":"https://dspace.ucalgary.ca/bitstream/1880/47297/3/2009-934-13.pdf",
+			"abstract": "This appendix contains the details of our case studies outlined in our paper for the 2009  International  Conference  on Software  Maintenance, as well as an expanded discussion section. The reader is directed to the main paper for introduction, motivation, and related work."
+		},
+		{
+			"authors" : 
+			[
+				{ 
+					"firstName": "Rylan", 
+					"initials":"",
+					"lastName":"Cottrell",
+					"email":"cottrell@cpsc.ucalgary.ca"
+		 		}
+			],
+			"title" : "Semi-automating Small-Scale Source Code Reuse via Structural Correspondence",
+			"publication":"Master of Science thesis, Department of Computer Science, University of Calgary, Calgary, Canada",
+			"year":"2008",
+			"pages":"",
+			"doi":"",
+			"pdf":"",
+			"abstract": "Developers perform small-scale reuse tasks to save time and to increase the quality of their code, but due to their small scale, the costs of such tasks can quickly outweigh their benefits. Existing approaches focus on locating source code for reuse but do not support the integration of the located code within the developer’s system, thereby leaving the developer with the burden of performing integration manually. This thesis presents an approach that uses the developer’s context to help integrate the reused source code into the developer’s target source code. The approach approximates a theoretical framework (higher-order anti-unification modulo theories), known to be undecidable in general, to determine candidate correspondences between the source code to be reused and the developer’s current (incomplete) system. This approach has been implemented in a prototype tool, called Jigsaw, that identifies and evaluates candidate correspondences greedily with respect to the highest similarity. Situations involving multiple candidate correspondences with similarities above a defined threshold are presented to the developer for resolution. Two empirical evaluations were conducted: an experiment comparing the quality of Jigsaw’s results against suspected cases of small-scale reuse in an industrial system; and case studies with two industrial developers to consider its practical usefulness and usability issues."
+		},
+		{
+			"authors" : 
+			[
+				{ 
+					"firstName": "Rylan", 
+					"initials":"",
+					"lastName":"Cottrell",
+					"email":"cottrell@cpsc.ucalgary.ca"
+		 		},
+		 		{ 
+					"firstName": "Robert", 
+					"initials":"J.",
+					"lastName":"Walker",
+					"email": ""
+		 		},
+		 		{ 
+					"firstName": "Jörg", 
+					"initials":"",
+					"lastName":"Denzinger",
+					"email": ""
+		 		}
+			],
+			"title" : " Semi-automating Small-Scale Source Code Reuse via Structural Correspondence",
+			"publication":"In Proceedings of the Sixteenth ACM SIGSOFT International Symposium on Foundations of Software Engineering (FSE ’08)",
+			"year":"2008",
+			"pages":"214-225",
+			"doi":"http://doi.acm.org/10.1145/1453101.1453130",
+			"pdf":"http://portal.acm.org/ft_gateway.cfm?id=1453130&type=pdf&coll=GUIDE&dl=GUIDE&CFID=10973313&CFTOKEN=43938599",
+			"abstract": "Developers perform small-scale reuse tasks to save time and to increase the quality of their code, but due to their small scale, the costs of such tasks can quickly outweigh their beneﬁts. Existing approaches focus on locating source code for reuse but do not support the integration of the located code within the developer’s system, thereby leaving the developer with the burden of performing integration manually. This paper presents an approach that uses the developer’s context to help integrate the reused source code into the developer’s own source code. The approach approximates a theoretical framework (higher-order anti-uniﬁcation modulo theories), known to be undecidable in general, to determine candidate correspondences between the source code to be reused and the developer’s current (incomplete) system. This approach has been implemented in a prototype tool, called Jigsaw, that identiﬁes and evaluates candidate correspondences greedily with respect to the highest similarity. Situations involving multiple candidate correspondences with similarities above a deﬁned threshold are presented to the developer for resolution. Two empirical evaluations were conducted: an experiment comparing the quality of Jigsaw’s results against suspected cases of small-scale reuse in an industrial system; and case studies with two industrial developers to consider its practical usefulness and usability issues."
+		},
+		{
+			"authors" : 
+			[
+				{ 
+					"firstName": "Rylan", 
+					"initials":"",
+					"lastName":"Cottrell",
+					"email":"cottrell@cpsc.ucalgary.ca"
+		 		},
+		 		{ 
+					"firstName": "Robert", 
+					"initials":"J.",
+					"lastName":"Walker",
+					"email": ""
+		 		},
+		 		{ 
+					"firstName": "Jörg", 
+					"initials":"",
+					"lastName":"Denzinger",
+					"email": ""
+		 		}
+			],
+			"title" : "Jigsaw: A tool for small-scale source code reuse",
+			"publication":"In Companion Proceedings of the International Conference on Software Engineering (ICSE ’08)",
+			"year":"2008",
+			"pages":"933-934",
+			"doi":"http://doi.acm.org/10.1145/1370175.1370194",
+			"pdf":"http://portal.acm.org/ft_gateway.cfm?id=1370194&type=pdf&coll=Portal&dl=GUIDE&CFID=10973313&CFTOKEN=43938599",
+			"abstract": "Developers perform small-scale reuse tasks to save time and to increase the quality of their code. Due to the small scale of such tasks, the overhead in reusing source code can quickly outweigh the beneﬁts. Existing approaches focus on locating source code for reuse but do not support the integration of the located code within the developer’s system, thereby leaving the developer with the burden of performing these steps manually. This paper presents a tool, called Jigsaw, that uses the developer’s context to help integrate the reused source code into the developer’s own source code."
+		},
+		{
+			"authors" : 
+			[
+				{ 
+					"firstName": "Rylan", 
+					"initials":"",
+					"lastName":"Cottrell",
+					"email":"cottrell@cpsc.ucalgary.ca"
+		 		},
+		 		{
+		 			"firstName":"Joseph",
+		 			"initials":"J. C.",
+		 			"lastName":"Chang",
+		 			"email":""
+		 		}
+		 		{ 
+					"firstName": "Robert", 
+					"initials":"J.",
+					"lastName":"Walker",
+					"email": ""
+		 		},
+		 		{ 
+					"firstName": "Jörg", 
+					"initials":"",
+					"lastName":"Denzinger",
+					"email": ""
+		 		}
+			],
+			"title" : "Determining detailed structural correspondence for generalization tasks",
+			"publication":"In Proceedings of the European Software Engineering Conference held jointly with the ACM SIGSOFT International Symposium on Foundations of Software Engineering",
+			"year":"2007",
+			"pages":"165-174",
+			"doi":"http://doi.acm.org/10.1145/1287624.1287649",
+			"pdf":"http://dl.acm.org/ft_gateway.cfm?id=1287649&ftid=460458&dwn=1&CFID=69007348&CFTOKEN=88531534",
+			"abstract": "Generalization tasks are important for continual improvement to the design of an evolving code base, eliminating redundancy where it has accumulated. An important step in generalization is identifying the detailed structural correspondence between two pieces of code being considered for generalization. Unfortunately, tool support for this step is insufﬁcient, leaving the developer to resort to tedious and error-prone manual determination of correspondence. This paper presents an approach for automatically determining correspondences as an early step in a generalization task. The approach is implemented in a proof-of-concept plug-in to the Eclipse integrated development environment. Two small empirical evaluations of the tool have been conducted: a comparison between human attempts to determine detailed correspondences and those of the tool; and, a comparison of the use of the tool to the use of diff/CCFinder in performing generalization task."
+		},
+		{
+			"authors" : 
+			[
+				{ 
+					"firstName": "Rylan", 
+					"initials":"",
+					"lastName":"Cottrell",
+					"email": "rylan@icottrell.com"
+		 		},
+		 		{
+		 			"firstName": "Ivo", 
+					"initials":"",
+					"lastName":"Düntsch",
+					"email": ""	
+		 		}
+			],
+			"title" : "An implementation of multivalued information systems",
+			"publication":"In Participants’ Proceedings of the Eighth Seminar on Relational Methods in Computer Science",
+			"year":"2004",
+			"pages":"",
+			"doi":"",
+			"pdf":"",
+			"abstract": ""
+		}
+	]
+}
